@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #ffffff;
+
+	font-family: 'anonymous pro';
+}
+
+button,
+input {
+	border: none;
+	background-color: inherit;
+}
+
+button {
+	cursor: pointer;
+	background-color: #737eef;
+	transition: background-color .25s;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+button:hover {
+	background-color: #5864e4;
+}
+
+button:active {
+	background-color: #4a58ec;
+}
+
+input:focus {
+	outline-color: #737eef;
+	outline-style: dashed;
+}
+
+body {
+	background-color: #1f2034;
+}
+
+.app {
+	padding: 20px 0;
+}
+
+.container {
+	max-width: 960px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
